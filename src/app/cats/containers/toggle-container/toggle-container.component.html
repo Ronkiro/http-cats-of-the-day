@@ -1,0 +1,6 @@
+<div style="display: flex;">
+  <span class="toggle-label" for="theme-toggle" id="toggle-light">Light</span>
+  <app-toggle-button id="theme-toggle" [startChecked]="true" (stateChange)="handleToggleChange($event)">
+  </app-toggle-button>
+  <label class="toggle-label" for="theme-toggle" id="toggle-dark">Dark</label>
+</div>

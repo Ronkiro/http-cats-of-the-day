@@ -1,0 +1,32 @@
+<h2>Today's cat is...</h2>
+
+<!-- Cat is alive :) -->
+<div *ngIf="httpCat" class="ok-meow">
+  <img class="cat-image" [src]="(httpCat | async).src" />
+</div>
+
+<!-- RIP -->
+<div *ngIf="!httpCat" class="rip-meow">
+  <h1>
+    Error while parsing the meow.<br />
+    R.I.P.<br /> <br />
+    <img
+      src="data:image/png;base64,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" />
+  </h1>
+  <p style="font-size: 0.8em;">You should try reloading the page while we try to find another one.</p>
+</div>
+
+<div style="margin-bottom: 10vh">
+  <label for="find-cat">Find a new cat:</label>
+  <input class="padding-std" id="find-cat" type="text"
+        style="margin-left: 12px"
+        placeholder="Cat code (i.e. 404)"
+        [(ngModel)]="findCatInput"
+  />
+  <button style="margin-left: 2px" class="btn btn-default" (click)="findNewCat(true)">Meow!</button>
+  <button class="btn btn-default"
+          (click)="findNewCat()"
+          style="margin-left: 12px">
+    <app-icon type="fa fa-refresh"></app-icon> Meet a new random meow!
+  </button>
+</div>
