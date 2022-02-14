@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --prod --base-href \"https://ronkiro.github.io/http-cats-of-the-day/\"",
+    "deploy": "npx angular-cli-ghpages --dir=dist/http-cat-of-the-day",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
