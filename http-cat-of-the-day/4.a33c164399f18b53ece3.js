@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{ervz:function(n,t,o){"use strict";o.r(t),o.d(t,"CatsModule",(function(){return u}));var r=o("ofXK"),e=o("3Pt+"),c=o("kyN3"),s=o("fXoL");let u=(()=>{class n{}return n.\u0275mod=s.Gb({type:n}),n.\u0275inj=s.Fb({factory:function(t){return new(t||n)},imports:[[r.c,e.b,c.a]]}),n})()}}]);
