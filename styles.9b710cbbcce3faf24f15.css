@@ -1,1 +1,0 @@
-:root{--bg:#000;--color:#fff;--sbar:#888;--sbar-track:#555;--sbar-hover:#f1f1f1}body{background-color:var(--bg);color:var(--color);margin:0 auto}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:var(--sbar-track)}::-webkit-scrollbar-thumb{background:var(--sbar)}::-webkit-scrollbar-thumb:hover{background:var(--sbar-hover)}
