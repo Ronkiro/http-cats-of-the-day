@@ -1,4 +1,9 @@
-# HttpCatOfTheDay
+# HTTP Cats of The Day
+![Angular CI Status](https://github.com/Ronkiro/http-cats-of-the-day/actions/workflows/angular.yml/badge.svg)
+
+This project was created for fun to show some HTTP cats from http.cat.
+
+## Technology
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
