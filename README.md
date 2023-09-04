@@ -5,7 +5,7 @@ This project was created for fun to show some HTTP cats from http.cat.
 
 ## Technology
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
 ## Development server
 
