@@ -11,10 +11,12 @@ import { ToggleButtonComponent } from './components/toggle-button/toggle-button.
 import { ToggleContainerComponent } from './containers/toggle-container/toggle-container.component';
 import { CatsContainerComponent } from './containers/cats-container/cats-container.component';
 import { FooterComponent } from './containers/footer/footer.component';
+import { CatFactsContainerComponent } from './containers/cat-facts-container/cat-facts-container.component';
+import { PoweredByComponent } from './containers/powered-by/powered-by.component';
 
 
 @NgModule({
-  declarations: [CatsComponent, TitleComponent, IconComponent, HeaderComponent, ToggleButtonComponent, ToggleContainerComponent, CatsContainerComponent, FooterComponent],
+  declarations: [CatsComponent, TitleComponent, IconComponent, HeaderComponent, ToggleButtonComponent, ToggleContainerComponent, CatsContainerComponent, FooterComponent, CatFactsContainerComponent, PoweredByComponent],
   imports: [
     CommonModule,
     FormsModule,

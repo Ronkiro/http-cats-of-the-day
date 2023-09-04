@@ -1,0 +1,4 @@
+<div *ngIf="catFact" class="fact">
+  <h1>Did you know?</h1>
+  <h3>{{ catFact && (catFact | async).data && (catFact | async).data[0] }}</h3>
+</div>
